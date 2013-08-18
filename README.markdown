@@ -35,13 +35,11 @@ Only 4 steps are required when you install it:
 
 After the 4 steps above, generate and preview your octopress, the cloud tags should show at your asides bar.
 
-NOTE:
---------
-It is available for Chinese tags. The [origin version](https://github.com/josephcc/octopress-cumulus) (where I forked this repo from) doesn't show any Chinese labels, because the `tagcloud.swf` file lack the Chinese fonts. I downloaded the swf file from [this website](http://blog.alphatr.com/wp-cumulus-cn.html) and to my surprise, the swf file who support Chinese is only 8k while the origin one is 34k.
+It is now available for **Chinese** tags.
 
 Demo:
 --------
-http://joseph.nlpweb.org    
+http://joseph.nlpweb.org
 http://blog.ashwani.co.in
 http://guori12321.github.io/
 
@@ -64,7 +62,6 @@ In template files, add the following markups.
         <span id="tag-cloud">{% tag_cloud bgcolor:#ffffff tcolor1:#00aa00 tcolor2:#00dd00 hicolor:#ff3333%}</span>
     </section>
 
-
 License:
 ---------
 WP-Cumulus is under GPLv3. However, original javascript and php code are not used, only tagcloud.swf
@@ -73,3 +70,4 @@ is adopted. This ruby code is under MIT License.
 GPLv3: http://gplv3.fsf.org
 MIT License: http://opensource.org/licenses/MIT
 
+PS: The Chinese support is provided by [http://blog.alphatr.com/wp-cumulus-cn.html](http://blog.alphatr.com/wp-cumulus-cn.html).
