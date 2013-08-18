@@ -8,10 +8,42 @@ Description:
 ------------
 3D rotating tagcloud for Octopress, ported from WP-cumulus.
 
+Install:
+--------
+The files are organized as following:
+```
+.
+├── gplv3.txt
+├── mit_license.txt
+├── plugins
+│   └── category_cloud.rb
+├── README.markdown
+└── source
+    ├── _includes
+    │   └── custom
+    │       └── asides
+    │           └── category_cloud.html
+    └── javascripts
+        └── tagcloud.swf
+```
+Only 4 steps are required when you install it:
+
+1. Copy the `plugins/category_cloud.rb` to your `octopress/plugins/`;
+2. Copy the `source/_includes/custom/asides/category_cloud.html` to your `octopress/source/_includes/custom/asides/`;
+3. Add the `octopress/source/_includes/custom/asides/` in Step 2 to your `default_asides` in your `octopress/_config.yml` file;
+4. Copy the `source/javascripts/tagcloud.swf` to your `source/javascripts/` folder.
+
+After the 4 steps above, generate and preview your octopress, the cloud tags should show at your asides bar.
+
+NOTE:
+--------
+It is available for Chinese tags. The [origin version](https://github.com/josephcc/octopress-cumulus) (where I forked this repo from) doesn't show any Chinese labels, because the `tagcloud.swf` file lack the Chinese fonts. I downloaded the swf file from [this website](http://blog.alphatr.com/wp-cumulus-cn.html) and to my surprise, the swf file who support Chinese is only 8k while the origin one is 34k.
+
 Demo:
 --------
 http://joseph.nlpweb.org    
 http://blog.ashwani.co.in
+http://guori12321.github.io/
 
 Syntax:
 -------
