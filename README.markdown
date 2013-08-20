@@ -8,7 +8,7 @@ Description:
 ------------
 3D rotating tagcloud for Octopress, ported from WP-cumulus.
 
-Install:
+Installation:
 --------
 The files are organized as following:
 ```
