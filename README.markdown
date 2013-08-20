@@ -40,7 +40,9 @@ It is now available for **Chinese** tags.
 Demo:
 --------
 http://joseph.nlpweb.org
+
 http://blog.ashwani.co.in
+
 http://guori12321.github.io
 
 Syntax:
